@@ -1,0 +1,90 @@
+main {
+    padding: 3em 5em;
+    column-count: 3;
+    column-gap: 2em;
+}
+
+.masonry-image-container {
+    display: inline-block;
+    margin-bottom: 2em;
+    cursor: pointer;
+    transition: 1s;
+    position: relative;
+
+}
+
+
+
+.masonry-image-container p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0em 0em 2em 1em;
+    color: #FFF;
+    font-size: 18px;
+}
+
+.masonry-image-container button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1em;
+    border: 1px solid #EB5757;
+    color: #EB5757;
+    background-color: transparent;
+    border-radius: 38px;
+    padding: 0.3em 1em;
+
+}
+
+.masonry-image-container button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1em;
+    border: 1px solid #EB5757;
+    color: #EB5757;
+    background-color: transparent;
+    border-radius: 38px;
+    padding: 0.3em 1em;
+    cursor: pointer;
+
+}
+
+
+main img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+main img:hover {
+    filter: brightness(50%);
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+@media screen and (max-width:772px) {
+    main {
+        padding: 3em 5em;
+        column-count: 2;
+        column-gap: 2em;
+    }
+}
+
+@media screen and (max-width:510px) {
+    main {
+        padding: 2em 1.5em;
+        gap: 1em
+    }
+
+    .masonry-image-container {
+
+        margin-bottom: 1em;
+
+
+    }
+}
